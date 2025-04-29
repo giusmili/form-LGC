@@ -1,4 +1,4 @@
-# 🚀  <font color="orange">𝑫𝒆́𝒗𝒆𝒍𝒐𝒑𝒑𝒆𝒎𝒆𝒏𝒕 𝑷𝑯𝑷 : 𝒇𝒐𝒓𝒎𝒖𝒍𝒂𝒊𝒓𝒆 𝒅𝒆 𝒄𝒐𝒏𝒕𝒂𝒄𝒕</font> 
+# 🚀  <span style="color: orange">𝑫𝒆́𝒗𝒆𝒍𝒐𝒑𝒑𝒆𝒎𝒆𝒏𝒕 𝑷𝑯𝑷 : 𝒇𝒐𝒓𝒎𝒖𝒍𝒂𝒊𝒓𝒆 𝒅𝒆 𝒄𝒐𝒏𝒕𝒂𝒄𝒕</span> 
 
 
 - 📝 Présentation des différents éléments de formulaire HTML (champs de texte, boutons, cases à cocher, etc.).
