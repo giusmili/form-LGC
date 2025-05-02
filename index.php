@@ -27,7 +27,17 @@
             Vos informations
         </h2>
         <ul>
-                </ul>
+              <?php
+                foreach($_POST as $key => $value){
+                    !empty($value) ? print "<li>".$key." : ".$value."</li>" :
+                    print "<li>Champ obligatoire</li>"; 
+                    
+                    
+                }
+               
+
+              ?>
+        </ul>
     </section>
         <fieldset>
             <legend>inscription</legend>
@@ -38,8 +48,7 @@
                 <input type="number" 
                         id="numero" 
                         name="numero"
-                        min="6"
-                        max="10"
+                      
                         placeholder="Numéro de serie" 
                         aria-required="true" 
                         autofocus>
@@ -60,8 +69,11 @@
                 
         </form>
 </fieldset>
-<pre>
 
+<pre>
+    <?php
+        // print_r($_POST)
+    ?>
 </pre>
     
     
