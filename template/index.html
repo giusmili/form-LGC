@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire d'inscription</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <header>
@@ -35,9 +35,11 @@
             <!-- https://www.google.com/search? -->
             <form action="index.php" method="post"> <!-- post and get -->
                 <label for="numero">Numéro de serie</label>
-                <input type="text" 
+                <input type="number" 
                         id="numero" 
-                        name="numero" 
+                        name="numero"
+                        min="6"
+                        max="10"
                         placeholder="Numéro de serie" 
                         aria-required="true" 
                         autofocus>
