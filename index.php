@@ -31,8 +31,6 @@
                 foreach($_POST as $key => $value){
                     !empty($value) ? print "<li>".$key." : ".$value."</li>" :
                     print "<li>Champ obligatoire</li>"; 
-                    
-                    
                 }
                
 
